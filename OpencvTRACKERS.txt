@@ -1,0 +1,11 @@
+
+OpenCV provides several built-in trackers other than the Go Turn tracker (cv2.TrackerGOTURN_create()) that you can use in place of it. Some of the commonly used trackers in OpenCV include:
+
+Boosting Tracker (cv2.TrackerBoosting_create())
+MIL Tracker (cv2.TrackerMIL_create())
+KCF Tracker (cv2.TrackerKCF_create())
+TLD Tracker (cv2.TrackerTLD_create())
+MedianFlow Tracker (cv2.TrackerMedianFlow_create())
+MOSSE Tracker (cv2.TrackerMOSSE_create())
+CSRT Tracker (cv2.TrackerCSRT_create())
+You can replace cv2.TrackerGOTURN_create() with any of the above tracker creation functions to use a different tracker
